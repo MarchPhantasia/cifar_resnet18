@@ -1,0 +1,14 @@
+# PyTorch 版本兼容性说明：
+# - PyTorch 1.7-2.5：完全兼容，推荐使用
+# - PyTorch 2.6+：代码已添加多层错误处理机制，包括：
+#   1. 处理 weights_only 参数默认值变更
+#   2. 修复变量作用域问题
+#   3. 增强检查点加载容错能力
+# 如果仍遇到问题，可以考虑降级到 PyTorch 2.5 或使用新版 PyTorch 重新训练并保存模型
+torch>=1.7.0
+torchvision>=0.8.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+scikit-learn>=0.24.0
+seaborn>=0.11.0
+tqdm>=4.50.0 

@@ -1,0 +1,4 @@
+文件名,预测类别,置信度
+1.jpg,airplane,100.00%
+2.jpg,automobile,100.00%
+3.jpg,bird,100.00%

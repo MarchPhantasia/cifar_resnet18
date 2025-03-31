@@ -1,0 +1,129 @@
+============= cifar100 官方测试集最终评估报告 =============
+
+模型: se_resnet18
+检查点: .\checkpoints\cifar100_resnet18\cifar100_se_resnet18_best.pth.tar
+使用SE模块: True
+SE缩减率: 16
+Dropout率: 0.5
+
+最终测试准确率: 69.16%
+最终测试损失: 1.8204
+测试时间: 26.54 秒
+测试样本数量: 10000
+
+各类别准确率:
+=============
+1. wardrobe: 91.00%
+2. skyscraper: 91.00%
+3. lawn_mower: 90.00%
+4. motorcycle: 89.00%
+5. bicycle: 89.00%
+6. road: 89.00%
+7. palm_tree: 89.00%
+8. plain: 88.00%
+9. sunflower: 87.00%
+10. orange: 87.00%
+11. mountain: 87.00%
+12. keyboard: 85.00%
+13. bottle: 85.00%
+14. chair: 84.00%
+15. skunk: 84.00%
+16. chimpanzee: 82.00%
+17. bridge: 82.00%
+18. sea: 82.00%
+19. pickup_truck: 81.00%
+20. apple: 81.00%
+21. television: 81.00%
+22. tank: 81.00%
+23. cockroach: 80.00%
+24. tractor: 79.00%
+25. train: 79.00%
+26. wolf: 78.00%
+27. house: 78.00%
+28. castle: 78.00%
+29. cloud: 77.00%
+30. aquarium_fish: 77.00%
+31. orchid: 77.00%
+32. pear: 77.00%
+33. cup: 77.00%
+34. tiger: 76.00%
+35. trout: 76.00%
+36. raccoon: 75.00%
+37. hamster: 75.00%
+38. beetle: 75.00%
+39. mushroom: 75.00%
+40. camel: 74.00%
+41. bee: 74.00%
+42. rocket: 73.00%
+43. streetcar: 73.00%
+44. lion: 73.00%
+45. fox: 72.00%
+46. sweet_pepper: 72.00%
+47. can: 71.00%
+48. bed: 71.00%
+49. leopard: 70.00%
+50. spider: 70.00%
+51. worm: 70.00%
+52. dinosaur: 69.00%
+53. whale: 68.00%
+54. oak_tree: 68.00%
+55. pine_tree: 68.00%
+56. lamp: 67.00%
+57. clock: 67.00%
+58. elephant: 67.00%
+59. plate: 67.00%
+60. table: 67.00%
+61. telephone: 67.00%
+62. flatfish: 66.00%
+63. porcupine: 66.00%
+64. kangaroo: 66.00%
+65. cattle: 64.00%
+66. butterfly: 64.00%
+67. rose: 64.00%
+68. poppy: 63.00%
+69. forest: 63.00%
+70. tulip: 62.00%
+71. maple_tree: 62.00%
+72. snake: 62.00%
+73. dolphin: 62.00%
+74. snail: 62.00%
+75. willow_tree: 62.00%
+76. crocodile: 62.00%
+77. crab: 61.00%
+78. ray: 57.00%
+79. man: 56.00%
+80. couch: 56.00%
+81. caterpillar: 56.00%
+82. mouse: 55.00%
+83. bus: 55.00%
+84. shark: 54.00%
+85. possum: 54.00%
+86. lobster: 54.00%
+87. turtle: 53.00%
+88. lizard: 53.00%
+89. beaver: 53.00%
+90. baby: 53.00%
+91. girl: 52.00%
+92. bowl: 52.00%
+93. rabbit: 51.00%
+94. shrew: 48.00%
+95. woman: 48.00%
+96. boy: 44.00%
+97. squirrel: 44.00%
+98. bear: 43.00%
+99. otter: 41.00%
+100. seal: 41.00%
+
+整体性能指标:
+=============
+总体精确率 (macro avg precision): 0.6943
+总体召回率 (macro avg recall): 0.6916
+总体F1分数 (macro avg f1-score): 0.6916
+
+测试总结:
+=============
+该模型在 cifar100 官方测试集上最终准确率为 69.16%。
+表现最好的类别: skyscraper (91.00%)
+表现最差的类别: otter (41.00%)
+
+注: 此评估在官方测试集上进行，结果代表模型的真实泛化能力。
